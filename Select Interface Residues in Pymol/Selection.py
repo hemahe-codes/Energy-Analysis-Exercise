@@ -2,14 +2,14 @@
 def selection(structure_name):
     from pymol import cmd
     import string
-    cmd.load("/home/helena/Desktop/Biophysics_seminar_5/Biophysics/%s.pdb" % structure_name, 'protein')
+    cmd.load("enter desired PDB file directory" % structure_name, 'protein')
     
     counter = 0
     chain_list_A=[]
     chain_list_B = []
     
     
-    A_file = open('/home/helena/Desktop/Biophysics_seminar_5/Biophysics/chainA_%s.txt' % structure_name)
+    A_file = open('chain residues directory' % structure_name)
     filecontents_A = A_file.read().split()
 
     for val in filecontents_A:
