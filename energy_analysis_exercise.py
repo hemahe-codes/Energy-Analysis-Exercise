@@ -15,7 +15,7 @@ from residue_library import ResiduesDataLib
 from forcefield import VdwParamset
 import energies as en
 
-NACCESS_BINARY = '/home/helena/Escritorio/Biophysics-master_2/Biophysics-master/soft/NACCESS/naccess'
+NACCESS_BINARY = 'path to naccess'
 
 parse_cmd = argparse.ArgumentParser(
     prog='binding',
